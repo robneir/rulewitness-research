@@ -1,0 +1,95 @@
+{
+  "name": "Describe a rule-change workflow",
+  "description": "Share a current problem, or explain how existing tools already solve it.",
+  "title": "[Workflow] ",
+  "body": [
+    {
+      "type": "markdown",
+      "attributes": {
+        "value": "This is a public research form. Do not share private code, customer information, credentials or security vulnerabilities. No email, payment or meeting is requested. A submission does not commit you or this project to a service."
+      }
+    },
+    {
+      "type": "input",
+      "id": "role",
+      "attributes": {
+        "label": "Your role in the workflow",
+        "description": "For example, engineer implementing pricing or owner of an operational model. Organization name is optional."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "workflow",
+      "attributes": {
+        "label": "What change are you trying to make?",
+        "description": "Describe a real current or recent workflow. Include the source and destination systems or languages if useful."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "current_approach",
+      "attributes": {
+        "label": "What do you use today, and what remains difficult?",
+        "description": "Name relevant tests or tools. If they already solve this well, please say so. Describe actual consequences without private data."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "useful_result",
+      "attributes": {
+        "label": "What result would change your decision?",
+        "description": "Describe a concrete acceptance criterion and any required arithmetic, rounding, state or unit semantics."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "example",
+      "attributes": {
+        "label": "Optional public or invented example",
+        "description": "Link to already-public material or give a small invented example. Do not paste proprietary formulas or customer data."
+      }
+    },
+    {
+      "type": "dropdown",
+      "id": "adoption",
+      "attributes": {
+        "label": "How relevant is solving this for you?",
+        "options": [
+          "Exploring only",
+          "Would evaluate a tool against a real workflow",
+          "Current tools already meet our needs",
+          "Could discuss adoption if a concrete gap is solved",
+          "Not sure"
+        ]
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "checkboxes",
+      "id": "public_consent",
+      "attributes": {
+        "label": "Public submission",
+        "options": [
+          {
+            "label": "I understand this issue and my GitHub identity will be public, and have excluded confidential or personal data.",
+            "required": true
+          }
+        ]
+      }
+    }
+  ]
+}

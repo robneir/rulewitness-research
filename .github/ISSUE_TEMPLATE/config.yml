@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Research findings and product limits
+    url: https://rulewitness-prototype-20260930.vercel.app/field-review.html
+    about: Read the current evidence before describing a workflow.
