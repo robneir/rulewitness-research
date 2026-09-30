@@ -15,10 +15,13 @@ GitHub issues and submitted account identities are public. Do not include custom
 - A stronger literal/boundary sampler found all nine synthetic differences in our authored corpus. Sampling cannot prove equivalence, but this removes the original benchmark’s apparent detection advantage.
 - Eight known public defect records exposed important gaps involving native arithmetic, state, units and intended policy. None was a new discovery by this project.
 - A manually reduced Vendure threshold case was also detected by simple boundary enumeration.
+- CrossHair already found three differences in five authored native Python function pairs; all three replayed in ordinary Python. It missed a separately known rounding difference within the bounded search. This is a small capability experiment, not a representative benchmark, and no-finding outcomes are not proofs of equivalence. [Study and reproducibility files](https://rulewitness-prototype-20260930.vercel.app/native-alternative.html).
 
 [Read the full field review](https://rulewitness-prototype-20260930.vercel.app/field-review.html), [synthetic results](https://rulewitness-prototype-20260930.vercel.app/benchmark-report.html), and [venture thesis](https://rulewitness-prototype-20260930.vercel.app/venture-thesis.html). Existing verification tools are alternatives to evaluate, not capabilities this project claims to have invented.
 
 ## What would justify further work
+
+Further product development is on hold pending independent workflow evidence. Native Python comparison by itself is already available and is not our differentiator.
 
 A repeated, specific problem that existing approaches do not adequately solve; checks tied to actual source versions and faithful runtime behavior; and evidence that teams would adopt the result without bespoke implementation for every rule. Interest, stars and issue counts alone will not be treated as willingness to pay.
 
