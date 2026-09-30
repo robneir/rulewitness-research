@@ -55,6 +55,14 @@
     },
     {
       "type": "textarea",
+      "id": "repeatability",
+      "attributes": {
+        "label": "How often does this happen, and how much preparation does it take?",
+        "description": "Optional estimates: changes or checks per month; time spent preparing one rule for comparison; and whether rules can be exported repeatably or need custom work each time. Broad ranges are fine. Do not share confidential details."
+      }
+    },
+    {
+      "type": "textarea",
       "id": "example",
       "attributes": {
         "label": "Optional public or invented example",
